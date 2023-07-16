@@ -1,0 +1,19 @@
+<Root>:
+    MDCard:
+        pos_hint: {"center_x": 0.5, "y": 0.05}
+        size_hint_x: 0.99
+        size_hint_y: 0.2
+        padding:30
+        RelativeLayout:
+            CircularRippleButton:
+                source: "wback.png"
+                size_hint: None, None
+                size: "150dp", "150dp"
+                color: app.theme_cls.primary_color
+                pos_hint: {"center_x": 0.05, "center_y": 0.5}         
+            CircularRippleButton:
+                source: "wforward.png"
+                size_hint: None, None
+                size: "150dp", "150dp"
+                color: app.theme_cls.primary_color
+                pos_hint: {"center_x": 0.95, "center_y": 0.5}
